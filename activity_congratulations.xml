@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6698ff"
+        tools:context=".Congratulations">
+        <TextView
+        android:id="@+id/the_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="All answers have been displayed by toasts, Thank you for launching my QuizApp"
+        android:textColor="#00ff00"
+        android:textSize="40sp" />
+        <TextView
+            android:id="@+id/the_question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="All answers have been displayed by toasts, Thank you for launching my QuizApp"
+            android:textColor="#00ff00"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/get_question_one1"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_below="@id/the_question2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="96dp"
+            android:text="Quit"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="true" />
+    </RelativeLayout>
+</ScrollView>

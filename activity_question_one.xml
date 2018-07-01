@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionOne"
+    android:background="#6698ff">
+
+    <TextView
+        android:id="@+id/the_question"
+        style="style/questionTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Who invented the boolean system of logic?"
+        android:textColor="#00ff00"
+        android:textSize="40sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/the_question"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option_A"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="George Boole" />
+
+        <RadioButton
+            android:id="@+id/option_B"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="peter parker" />
+
+        <RadioButton
+            android:id="@+id/option_C"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Albert Einstein" />
+
+        <RadioButton
+            android:id="@+id/option_D"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="58dp"
+            android:text="Charles Babbage" />
+    </RadioGroup>
+</RelativeLayout>
+       </ScrollView>

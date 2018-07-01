@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionNine"
+    android:background="#6698ff">
+
+    <TextView
+        android:id="@+id/the_question"
+        style="style/questionTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="The rechristening of the Celebration of Women in computing was named after _____ due to death from cancer in 2003?"
+        android:textColor="#00ff00"
+        android:textSize="40sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/the_question"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option_A"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Mrs Boole" />
+
+        <RadioButton
+            android:id="@+id/option_B"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Albrecht Durer" />
+
+        <RadioButton
+            android:id="@+id/option_C"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Anita borg" />
+
+        <RadioButton
+            android:id="@+id/option_D"
+            style="@style/answerTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Linus Torvalds" />
+    </RadioGroup>
+
+</RelativeLayout>
+</ScrollView>
